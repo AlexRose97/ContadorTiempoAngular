@@ -1,27 +1,25 @@
-# ContadorTiempo
+# Contador de Tiempo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+Este es un proyecto de Angular que te permite contar el tiempo restante para salir, y en caso de que la hora actual sea mayor que la hora de salida, también muestra el tiempo que ya ha transcurrido desde la salida.
 
-## Development server
+## Descripción
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Este proyecto utiliza Angular para crear un contador de tiempo que te muestra cuánto tiempo falta para tu hora de salida deseada. Si la hora actual es posterior a la hora de salida, el contador mostrará el tiempo que ha pasado desde la hora de salida.
 
-## Code scaffolding
+## Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Muestra la hora de salida deseada.
+- Calcula y muestra el tiempo restante para la salida.
+- Si la hora actual es mayor a la hora de salida, muestra el tiempo transcurrido desde la salida.
+- Permite detener el contador con un botón.
+- Puedes ingresar la hora de salida deseada y actualizarla para reiniciar el contador.
 
-## Build
+## Cómo usar
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+1. Clona este repositorio.
+2. Instala las dependencias con `npm install`.
+3. Ejecuta la aplicación con `ng serve`.
+4. Abre tu navegador y accede a `http://localhost:4200`.
+5. Ingresa la hora de salida deseada en formato HH:MM y observa el contador.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+¡Disfruta de esta práctica aplicación de contador de tiempo en Angular!
